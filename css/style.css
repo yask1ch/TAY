@@ -1,0 +1,292 @@
+* {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 24px;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1326px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    transition: 0.6s;
+    height: 30px;
+}
+
+.header-link:hover {
+    color: #EB7E7F;
+}
+
+.menu {
+    display: flex;
+    gap: 63px;
+    padding-top: 60px;
+}
+
+.button_header {
+    border: none;
+    background-color: #fff;
+    height: 50px;
+    cursor: pointer;
+}
+
+.button-header {
+    padding-top: 50px;
+    display: flex;
+    gap: 28px;
+}
+
+.slider {
+    margin-top: 42px;
+}
+
+.main_img {
+    width: 1326px;
+    height: 677px;
+}
+.main_img1 {
+    width: 400px;
+}
+.slider img {
+    border-radius: 20px;
+}
+
+.dots li button:before {
+    content: "";
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    margin-top: 20px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.h1_info {
+    color: #EB7E7F;
+    top: 30px;
+}
+.h1-info {
+    color: #687FD0;
+    margin-top: 160px;
+}
+.h1_podtext {
+    left: 90px;
+    top: 10px;
+}
+
+.center-info {
+    margin-top: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F1F1F1;
+    border-radius: 133px;
+    gap: 83px;
+    width: 1530px;
+    height: 763px;
+    right: 116px;
+
+}
+
+.info_blocks {
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+    gap: 58px;
+}
+
+.blocks {
+    color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 404px;
+    height: 407px;
+    text-align: center;
+}
+
+.celb {
+    background-color: #687FD0;
+}
+
+.tay {
+    background-color: #EB7E7F;
+}
+
+.missia {
+    background-color: #9A6ACA;
+}
+
+.blocks_h3 {
+    font-size: 36px;
+    position: absolute;
+    top: 31px;
+}
+
+.texts {
+    font-size: 24px;
+    line-height: 160%;
+    font-weight: bold;
+    position: absolute;
+    top: 108px;
+}
+
+.celb_text {
+    width: 320px;
+}
+
+.missia_text {
+    width: 351px;
+}
+.tay_text {
+    font-size: 40px;
+    padding-top: 64px;
+}
+.glav {
+    position: absolute;
+    top: 10px;
+}
+.log_form{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s;
+}
+.log_form:target {
+    opacity: 1;
+    pointer-events: initial;
+}
+.close_img {
+    width: 42px;
+    right: 60px;
+    
+}
+.cont_form {
+    background-color: #fff;
+    width: 900px;
+    height: 697px;
+    border-radius: 20px;
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.cont_form1 {
+    background-color: #fff;
+    width: 900px;
+    height: 800px;
+    border-radius: 20px;
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.top_log {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    left: 30px;
+    
+}
+.log {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    gap: 28px;
+    left: 30px;
+}
+.log_text {
+    font-size: 30px;
+}
+.form_form {
+    border: solid 3px;
+    border-radius: 12px;
+    height: 63px;
+    font-size: 24px;
+    cursor: line;
+    padding-left: 30px;
+}
+.form_button {
+    width: 400px;
+    height: 94px;
+    border: none;
+    background-color: #EB7E7F;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 24px;
+    left: 220px;
+    cursor: pointer;
+    transition: .5s;
+}
+.form_button:hover {
+    color: #EB7E7F;
+    background-color: #fff;
+    border: solid 3px #EB7E7F;
+}
+.form_chekbox {
+    display: flex;
+    width: 600px;
+    left: 40px;
+    gap: 30px;
+}
+.check_text {
+    font-size: 20px;
+    color: #535252;
+}
+#form_check {
+    width: 20px;
+    cursor: pointer;
+}
+.form_perexod {
+    text-decoration: none;
+    color: #837E7E;
+    left: 600px;
+}
+
+.pass {
+    width: 185px;
+    z-index: 1;
+    background-color: #D9D9D9;
+    border-radius: 55px;
+    left: 555px;
+    top: 61px;
+}
+.slider-second {
+    margin-top: 10%;
+}

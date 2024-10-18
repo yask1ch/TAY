@@ -278,6 +278,9 @@ body {
     color: #837E7E;
     left: 600px;
 }
+.form_perexod:hover {
+    text-decoration: underline;
+}
 
 .pass {
     width: 185px;
